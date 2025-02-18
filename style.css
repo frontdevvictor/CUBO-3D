@@ -38,8 +38,17 @@ body {
     transform: rotateY(180deg) translateZ(100px);
 }
 
+.s4 {
+    transform: rotateY(90deg) translateZ(100px);
+}
 
+.s5 {
+    transform: rotateY(-90deg) translateZ(100px);
+}
 
+.s6 {
+    transform: rotateX(-90ged) translateZ(100px) rotate(180deg);
+}
 
 @keyframes rotate {
     100% {
