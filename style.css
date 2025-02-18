@@ -16,6 +16,7 @@ body {
     width: 200px;
     height: 200px;
     transform-style: preserve-3d;
+    animation: rotate 5s infinite linear;
 }
 
 .cube > div {
@@ -34,12 +35,12 @@ body {
     transform: rotateY(90deg) translateZ(100px);
 }
 
-.s3{
+.s3 {
     transform: rotateY(180deg) translateZ(100px);
 }
 
 .s4 {
-    transform: rotateY(90deg) translateZ(100px);
+    transform: rotateY(270deg) translateZ(100px); /* Corrigido para 270deg */
 }
 
 .s5 {
@@ -47,7 +48,7 @@ body {
 }
 
 .s6 {
-    transform: rotateX(-90ged) translateZ(100px) rotate(180deg);
+    transform: rotateX(-90deg) translateZ(100px) rotate(180deg);
 }
 
 @keyframes rotate {
